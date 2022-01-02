@@ -5,9 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Game Mania Destaques</title>
+    <link rel="stylesheet" href="css/destaque.css">
+    <script src="js/jquery.js"></script>
 </head>
 <body>
-    <h1>Grande Destaque</h1>
-    <p>BEM AQUI!!!</p>
+    <!-- CABEÇALHO -->
+
+    <header>
+        <div class="logoHeader">
+            <a href="#"><img class="logoImagem" src="img/logo.png" alt="logo"></a>
+        </div>
+        <div class="menuHeader">
+            <nav>
+                <a href="login.html">login</a>
+                <a href="#">registro</a>
+            </nav>
+            <button class="iconeMenuHeader">Menu</button>
+        </div>
+        <div class="configuracaoHeader">
+            <button id="configuracoesHeader" class="configuracoesHeader">Configurações</button>
+            <nav id="menuConfiguracoes" class="menuConfiguracoes desativado">
+                <a href="">Configuraçoes</a>
+                <a href="">Editar Perfil</a>
+                <a href="">Meu Carrinho</a>
+                <a href="">Logout</a>
+            </nav>
+        </div>
+    </header>
+
+    <a class="voltar" href="index.html">pagina inicial</a>
+
+    <!-- TEXTO -->
+    <div class="tudo">
+        <h1 class="titulo" >Grande Destaque</h1>
+        <p class="subtitulo">BEM AQUI!!!</p>
+    </div>
+    <script src="js/destaque.js"></script>
 </body>
 </html>

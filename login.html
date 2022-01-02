@@ -8,8 +8,11 @@
     <link rel="stylesheet" href="css/login.css">
 </head>
 <body>
-   <section>
-       <div>
+    <div class="voltar">
+        <a href="index.html">Pagina Inicial</a>
+    </div>
+   <section class="tudo">
+       <div class="agrupado">
            <h1 id="titulo"><strong>Faça seu login!!!</strong></h1>
            <p id="subtitulo"><strong>entre e fique conosco!</strong></p>
        </div>
@@ -25,8 +28,9 @@
                </div>
                
            </fieldset>
-           <button id="botao" type="submit">Enviar</button>
+           <button onclick="popup()" id="botao" type="submit">Enviar</button>
        </form>
    </section>
+   <script src="js/login.js"></script>
 </body>
 </html>
