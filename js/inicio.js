@@ -3,50 +3,12 @@ function renderizar() {
 
     let listaProdutos = [
     {
-        imagem:"img/Rectangle 13.png" ,
-        titulo:"Console" ,
-        preco:"R$ 1.200,00" 
+        imagem:"img/produto.png" ,
+        titulo:"Produto" ,
+        preco:"R$ 000,00" ,
+        descricao:"parcelado em x s/ juros"
     },
-    {
-        imagem:"img/Rectangle 13.png" ,
-        titulo:"Console" ,
-        preco:"R$ 1200,00" 
-    },
-    {
-        imagem:"img/Rectangle 13.png" ,
-        titulo:"Console" ,
-        preco:"R$ 1200,00" 
-    },
-    {
-        imagem:"img/Rectangle 13.png" ,
-        titulo:"Console" ,
-        preco:"R$ 1200,00" 
-    },
-    {
-        imagem:"img/Rectangle 13.png" ,
-        titulo:"Console" ,
-        preco:"R$ 1200,00" 
-    },
-    {
-        imagem:"img/Rectangle 13.png" ,
-        titulo:"Console" ,
-        preco:"R$ 1200,00" 
-    },
-    {
-        imagem:"img/Rectangle 13.png" ,
-        titulo:"Console" ,
-        preco:"R$ 1200,00" 
-    },
-    {
-        imagem:"img/Rectangle 13.png" ,
-        titulo:"Console" ,
-        preco:"R$ 1200,00" 
-    },
-    {
-        imagem:"img/Rectangle 13.png" ,
-        titulo:"Console" ,
-        preco:"R$ 1200,00" 
-    },
+   
    
     ]
     let template = "";
@@ -58,6 +20,7 @@ function renderizar() {
     <img src="${produto.imagem}" alt="">
   <h1>${produto.titulo}</h1>
   <p>${produto.preco}</p>
+  <p1>${produto.descricao}</p1>
   
   </div>`
         
